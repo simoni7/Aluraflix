@@ -1,4 +1,12 @@
 body{
     background-color: rgb(5, 1, 1);
     color: rgb(223, 17, 113);
+    
+}
+
+section{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
 }
