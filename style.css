@@ -13,10 +13,15 @@ section{
     
 }
  .chamada-texto{
-    margin-right: 30px;
+    margin-right: 5%;
  }
 
  image{
     height: 200px;
+ }
+
+ .categoria-videos{
+    display: flex;
+    overflow-x: auto;
  }
 
