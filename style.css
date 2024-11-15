@@ -1,27 +1,26 @@
 body{
-    background-color: rgb(5, 1, 1);
-    color: rgb(223, 17, 113);
-    
+   background-color: black;
+   color: pink;
 }
 
 section{
-    background-color: black;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    justify-content: center;
-    
+   background-color: rgb(126, 147, 97);
+   padding-top: 80px;
+   padding-bottom: 80px;
+   display: flex; /* torna a seção flexivel pondo um do lado do outro */
+   justify-content: center;
 }
- .chamada-texto{
-    margin-right: 5%;
- }
 
- image{
-    height: 200px;
- }
+.chamada-texto{
+   margin-right: 5%;
+}
 
- .categoria-videos{
-    display: flex;
-    overflow-x: auto;
- }
+img{
+   height: 200px;
+}
 
+.categoria-videos{
+   display: flex; /* torna flexivel - ficara todos na msm linha*/
+   overflow-x: auto; /* nao deixa o conteudo sair na horizontal*/
+   gap: 20px; /* espaço entre os videos*/
+}
