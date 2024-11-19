@@ -5,8 +5,8 @@ body{
 
 section{
    background-color: rgb(83, 4, 57);
-   padding-top: 80px;
-   padding-bottom: 80px;
+   padding-top: 60px;
+   padding-bottom: 60px;
    display: flex; /* torna a seção flexivel pondo um do lado do outro */
    justify-content: center;
 }
